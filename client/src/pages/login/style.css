@@ -1,3 +1,36 @@
-h1 {
-    color: brown;
+.login-conteiner {
+    width: 100%;
+    max-width: 1120%;
+    height: 100vh;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .login-conteiner section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.login-conteiner section.form img {
+
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: block; 
+}
+
+
+.login-conteiner section.form form {
+    margin-top: 40px;
+}
+
+.login-conteiner section.form form h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
 }
